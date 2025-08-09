@@ -160,6 +160,13 @@ Singleton {
                     property bool showAppIcons: true
                     property bool alwaysShowNumbers: false
                     property int showNumberDelay: 300 // milliseconds
+
+                    // Ellipsis display settings
+                    property int alwaysShowFirstN: 3
+                    property int maxVisibleDots: 9
+                    property int neighborSpan: 1
+                    property int tailSpan: 1
+                    property bool showTail: true
                 }
                 property JsonObject weather: JsonObject {
                     property bool enable: false
